@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- 1) использует заголовки при создании веб-страниц; -->
+  <title> Torty Gulzhan </title>
+  <!-- 4.2) использует стили для оформления страницы  -->
+  <style type="text/css">
+		body {
+			background-color: #ffe69e;
+		}
+
+		h1 {
+			font-weight: normal;
+		}
+
+		h2 {
+			font-weight: normal;
+		}
+
+		h3 {
+			font-weight: normal;
+		}
+	</style>
+</head>
+
+<body>
+
+<header style="
+	width: 100%;
+	height: 9%;">
+  <H1 align="center" >
+    Torty Gulzhan
+  </h1>
+</header>
+
+<!-- 4.1) использует разметку страницы -->
+<div id="container">
+  <div id="navigation">
+    <!-- 1.2) создает бегущую строку -->
+    <marquee width="100%" scrollamount="10">
+      <h2>Купи торт уже сегодня.</h2>
+    </marquee>
+  </div>
+
+  <div id="menu">
+    <ul style="
+	display: flex;
+    justify-content: space-around;
+    font-size: 33px;">
+      <li><a href="media.html"> Медиа </a></li>
+      <li><a href="index.html"> Главная </a></li>
+      <li><a href="table.html">  Цены </a></li>
+    </ul>
+  </div>
+
+  <!-- 6.1) указывает вывод изображения, фона -->
+  <div id="advertise1" style="
+		float:left;
+		width:25%;
+		height:60%;">
+    <img src="img/cheesecake.png" alt="knife" align="center" width="100%" height="100%">
+  </div>
+
+  <div id="content" style="
+		float:left;
+		width:50%;
+		height:60%;">
+
+
+    <h2 align="center">Лучшее видео</h2>
+    <!-- 5.1) указывает  тег  вставки  видео
+         5.2) указывает	атрибуты настройки видео-->
+    <h2 align="center"> <video src="img/video.mp4" controls height="70%" width="50%"></video></h2>
+
+    <h2 align="center">Лучшее аудио</h2>
+    <!-- 6.2) указывает вывод аудио -->
+    <h2 align="center"><audio src="img/Alexis Ffrench - Still Life.mp3" controls></audio></h2>
+
+
+  </div>
+
+  <div id="advertise2" style="
+		float: right;
+		width:25%;
+		height:60%;">
+    <img src="img/cupcakes.png" width="100%" height="100%">
+  </div>
+</div>
+<footer style="
+	float:left;
+	width:100%;
+	height:15%;">
+
+  <ul style="
+	font-size:30px;
+	margin-right: 50px;">
+    <li>
+      О нас:
+      <!--  2) использует маркированные списки при создании веб-страниц;-->
+      <ol>
+        <li> Мой номер телефона: +77058117181</li>
+        <!-- 8) использует любой вид гиперссылок -->
+        <li><a href="https://www.instagram.com/torty_gulzhan/"> Instagram </a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=77781642227"> Whatsapp </a></li>
+        <li> Почта: example@gmail.com </li>
+      </ol>
+    </li>
+  </ul>
+</footer>
+
+</body>
+
+</html>
